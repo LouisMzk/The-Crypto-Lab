@@ -751,13 +751,13 @@ button_sell.addEventListener('click', function(){
 })
 
 git_button.addEventListener('click', function(){
-    window.open("https://www.github.com/LouisMzk/MakeCryptoEasier");
+    window.open("https://github.com/LouisMzk/The-Crypto-Lab");
 })
 
 donate_button.addEventListener('click', function(){
     alert('We need to get stars on our github repository, '
         +'please support us by giving a star if you like our project !')    
-    window.open("https://www.github.com/LouisMzk/MakeCryptoEasier");
+    window.open("https://github.com/LouisMzk/The-Crypto-Lab");
 })
 
 join_button.addEventListener('click', function() {
