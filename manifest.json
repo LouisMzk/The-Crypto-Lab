@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Make Crypto Easier",
+    "description": "This extension was created to facilitate the purchase and resale of cryptocurrencies, on some of the best known platforms.",
+    "version": "1.4",
+    "icons": { "16": "img/icon16.png", "48": "img/icon48.png", "128": "img/icon128.png" },
+    "permissions": [
+                    "alarms",
+                    "contextMenus",
+                    "nativeMessaging",
+                    "storage"                  ],
+    "background": {
+      "persistent": true,
+      "page": "back/background.html"
+    },
+    "browser_action": {
+        "default_popup": "popup/popup.html", 
+        "default_icon": {
+            "16": "img/icon16.png",
+            "48": "img/icon48.png",
+            "128": "img/icon128.png"
+        }
+    }
+}
+

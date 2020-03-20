@@ -1,0 +1,92 @@
+<!DOCTYPE html> 
+ <html>    
+     <head>      
+         <style>
+        </style>    
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+             
+    <body>
+        <header>
+            <div class="header-title">
+                <h1><span>Make</span><u>Crypto</u><span style="color:#8a9aec;">Easier.</span></h1>
+            </div>
+
+            <div class="header-image" style="background-image: url('img/ban.png');">
+            </div>
+        </header>
+
+        <main>
+            <section class="platform">
+                <button id="b_coinbase">Coinbase</button>
+                <button id="b_gdax">GDAX</button>
+                <button id="b_kraken">Kraken</button>
+                <button id="b_bitstamp">Bitstamp</button>
+                <button id="b_bitfinex">Bitfinex</button>
+                <button id="b_binance">Binance</button>
+                <button id="b_coinhouse">Coinhouse</button>
+                <button id="b_etoro">eToro</button>
+            </section>
+
+            <div class="main">
+                <section class="cryptos">
+                    <button id="b_btc">BTC</button>
+                    <button id="b_bch">BCH</button>
+                    <button id="b_eth">ETH</button>
+                    <button id="b_ltc">LTC</button> 
+                </section>
+
+                <section class="utils">
+                    <div class="utils-buy">
+                        <div class="w-buy">
+                            <!-- Encodages 
+                                USD=&#36; 
+                                EUR = &euro; 
+                                GBP = &pound;	 
+                            -->
+                            <div class="w-buysell">
+                                <input id="input_buy" type="text" placeholder="&pound;0" maxlength="0" spellcheck="false">  
+                                <input type="text" placeholder="$" id="disabled_devise" disabled>                              
+                            </div>
+                            
+                            <div class="button-buy">
+                                <button id="button_buy">BUY</button>
+                                <button id="button_sell">SELL</button>
+                            </div>
+
+                            <div class="w-crypto">
+                                <input id="input_crypto" type="text" placeholder="0" maxlength="0" spellcheck="false">
+                                <input type="text" placeholder="BTC" id="disabled_crypto" disabled>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="utils-receive">
+                        <button id="button_receive">Receive</button>
+                        <button id="button_send">Send</button>
+                    </div>
+
+                    <div class="utils-donate">
+
+                    </div>
+                </section>
+
+                <section class="devise">
+                    <button id="b_eur">EUR</button>
+                    <button id="b_usd">USD</button>
+                    <button id="b_gbp">GBP</button>
+                </section>
+            </div>
+        </main>
+
+        <footer class="donate">
+            <button id="b_donate">Support us !</button>
+            <button id="b_github">Github</button>
+            <button id="b_join">Join us</button>
+        </footer>
+
+        <script src="popup.js"></script>
+    </body>  
+                
+    </html>

@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body {          
+    height: 506px;          
+    width: 350px;          
+    outline: none;  
+    background-color: #222;     
+    border: 4px solid rgb(22, 82, 240); 
+    display: flex;
+    flex-direction: column;
+    }
+
+main{
+   flex-grow: 1;
+   display: flex;
+   flex-direction: column;
+}
+
+div {
+   text-align: center;
+}
+div h1 {
+   color: hsl(223, 88%, 57%);
+   text-align: center;
+   display: inline-block;
+   margin: 12px 0px;
+}
+div h1 u {
+   color: hsl(223, 88%, 51%);
+}  
+h1 span{
+   padding: 4px 6px;
+   border-radius: 100px;
+} 
+.header-image{
+   height: 60px;
+   background: hsl(223, 88%, 51%);
+}
+
+
+
+main section{
+   color: rgb(156, 166, 209);
+}
+
+   main .platform{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       font-size: 16px;
+       align-items: center;
+       background: hsl(223, 88%, 34%);
+       border: 8px solid #222;
+   }
+
+   main .main{
+       display: flex;
+       background: #222;
+       flex-grow: 1;
+   }
+
+   main .cryptos{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       font-size: 16px;
+       border: 7px solid #222;
+       height: 240px;
+   }
+
+   main .devise{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       font-size: 16px;
+       border: 7px solid #222;
+       height: 240px;
+   }
+
+       main button{
+        background: #0b3ab1;
+        border-color: hsl(223, 88%, 52%);
+        color: hsl(223, 88%, 75%);  
+       }
+
+       main button:hover{
+        background: hsl(223, 88%, 27%);
+        border-color: hsl(223, 88%, 42%);
+        color: hsl(223, 88%, 80%); 
+        cursor: pointer;
+       }
+
+       main .platform button{
+           padding: 8px 8px;
+           flex-basis: 25%;
+       }
+
+       main .cryptos button{
+           height: 100%;
+           padding: 20px 6px 20px 11px; 
+        }
+
+       main .devise button{
+        height: 100%;
+        padding: 0px 10px;
+        display: flex;
+        align-items: center;
+        }
+
+        
+
+            main button.checked{
+                background-color: hsl(223, 88%, 77%);
+                color: hsl(84, 100%, 59%);
+                font-weight: 900;
+                border: 2px solid yellowgreen;
+            }
+
+        main .utils{
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            background: #222;
+            justify-content: space-around;
+       }
+
+        main .utils input{
+            text-align: center;
+
+        }
+
+        .w-buysell, .w-crypto{
+            display: flex;
+            width: 100%!important;
+        }
+
+        #disabled_devise, #disabled_crypto{
+            width: 50%;
+            font-size: 18px;
+            background:#33333357;
+            border: 4px solid #333;        }
+
+        main .utils-buy{
+            display: flex;
+            justify-content: center;
+        }
+
+            main .utils .utils-buy div{
+                width: 76%;
+            }
+
+            main .utils .utils-buy input {
+                font-size: 22px;
+                color: gray;
+                width: 100%;
+                border:0;
+                padding:0;
+                background: #333333;                
+
+            }
+
+            .w-buy{
+                border: 3px dashed hsl(223, 88%, 37%);
+                padding: 15px;
+                border-radius: 15px;
+            }
+
+            #input_crypto{
+                border-left: 0;
+                height: 26.4px;
+                font-size: 22px;
+                border-bottom: 1px solid #333;
+            }
+
+            #disabled_crypto{
+                font-size:16px
+            }
+
+            .button-buy{
+                display:flex;
+                width: 100% !important;
+            }
+
+            .button-buy button{
+                flex-basis: 50%;
+                padding: 0;
+                border: 0;
+                height: 35px;
+                color: #333;
+                font-weight: 700;
+            }
+
+            #button_buy{
+                background: #228622;
+                color:#1c0404c2;
+            }
+            #button_sell{
+                background: #4d0505;
+                color: #aaa;
+            }  
+            
+            #button_receive, #button_send{
+                width: 40%;
+                height: 34px;
+                color: #ddd;
+                background: #444;
+                border: 1px solid #333;
+            }
+
+            #button_receive:hover{
+                background: #333;
+            }
+            #button_send:hover{
+                background: #333;
+            }
+
+.donate{
+    background: #222;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate button{
+    width: 100px;
+    height: 34px;
+    background: #aaa;
+    border: 2px solid #444;
+    border-radius: 40px;
+    margin: 0 13px;
+    cursor: pointer;
+}
+
+#b_donate:hover{
+    background: #228622;
+    color:#bbb;
+}
+
+#b_github:hover{
+    background: rgb(173, 68, 8);
+    color:#bbb;
+}
+
+#b_join:hover{
+    background: rgb(138, 138, 10);
+    color:#bbb;
+}
