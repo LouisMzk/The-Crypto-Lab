@@ -10,7 +10,7 @@
     console.log('onInstalled...');
 
     chrome.storage.sync.set({current_crypto: 'btc', current_devise: 'usd', current_platform: 'coinbase', current_symbol: current_symbol }, function() {
-      console.log('MCE v1.2 successfully launched');
+      console.log('TCL v1.2 successfully launched');
     });
     
     chrome.alarms.create('refresh', { periodInMinutes: 1 });
@@ -188,7 +188,7 @@ BadgeTextAnimator.prototype._setBadgeText = function ( text ) {
 }; 
 
 // IN A FUTURE UPDATE
-// TO COPY A WALLET DIRECTLY IN MCE
+// TO COPY A WALLET DIRECTLY IN TCL
 // AND RECEIVE CRYPTO
 
 
